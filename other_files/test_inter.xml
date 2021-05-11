@@ -1,0 +1,3223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<OBJTYPEPARAMS>
+                  <PARAM ID="16213" Name="Количество коммутаций">
+                    <ID>16213</ID>
+                    <PID>2472</PID>
+                    <NAME>Количество коммутаций</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.CommCnt</PLC_VARNAME>
+                    <DISC>Количество коммутаций</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16214" Name="Коэффициент мощности cos phi">
+                    <ID>16214</ID>
+                    <PID>2472</PID>
+                    <NAME>Коэффициент мощности cos phi</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.CosF</PLC_VARNAME>
+                    <DISC>Коэффициент мощности cos phi</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16215" Name="Отрицательная активная энергия">
+                    <ID>16215</ID>
+                    <PID>2472</PID>
+                    <NAME>Отрицательная активная энергия</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Ea-</PLC_VARNAME>
+                    <DISC>Отрицательная активная энергия</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16216" Name="Положительная активная энергия">
+                    <ID>16216</ID>
+                    <PID>2472</PID>
+                    <NAME>Положительная активная энергия</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Ea+</PLC_VARNAME>
+                    <DISC>Положительная активная энергия</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16217" Name="Отрицательная реактивная энергия">
+                    <ID>16217</ID>
+                    <PID>2472</PID>
+                    <NAME>Отрицательная реактивная энергия</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Er-</PLC_VARNAME>
+                    <DISC>Отрицательная реактивная энергия</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16218" Name="Положительная реактивная энергия">
+                    <ID>16218</ID>
+                    <PID>2472</PID>
+                    <NAME>Положительная реактивная энергия</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Er+</PLC_VARNAME>
+                    <DISC>Положительная реактивная энергия</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16219" Name="Частота">
+                    <ID>16219</ID>
+                    <PID>2472</PID>
+                    <NAME>Частота</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Freq</PLC_VARNAME>
+                    <DISC>Частота</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16220" Name="Ток нулевой последовательности">
+                    <ID>16220</ID>
+                    <PID>2472</PID>
+                    <NAME>Ток нулевой последовательности</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.I0</PLC_VARNAME>
+                    <DISC>Ток нулевой последовательности</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16221" Name="Ток Ia">
+                    <ID>16221</ID>
+                    <PID>2472</PID>
+                    <NAME>Ток Ia</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.I1</PLC_VARNAME>
+                    <DISC>Ток Ia</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16222" Name="Ток Ib">
+                    <ID>16222</ID>
+                    <PID>2472</PID>
+                    <NAME>Ток Ib</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.I2</PLC_VARNAME>
+                    <DISC>Ток Ib</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16223" Name="Ток Ic">
+                    <ID>16223</ID>
+                    <PID>2472</PID>
+                    <NAME>Ток Ic</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.I3</PLC_VARNAME>
+                    <DISC>Ток Ic</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16224" Name="Cреднее значение фазного тока Ia">
+                    <ID>16224</ID>
+                    <PID>2472</PID>
+                    <NAME>Cреднее значение фазного тока Ia</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Im1</PLC_VARNAME>
+                    <DISC>Cреднее значение фазного тока Ia</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16225" Name="Cреднее значение фазного тока Ib">
+                    <ID>16225</ID>
+                    <PID>2472</PID>
+                    <NAME>Cреднее значение фазного тока Ib</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Im2</PLC_VARNAME>
+                    <DISC>Cреднее значение фазного тока Ib</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16226" Name="Cреднее значение фазного тока Ic">
+                    <ID>16226</ID>
+                    <PID>2472</PID>
+                    <NAME>Cреднее значение фазного тока Ic</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Im3</PLC_VARNAME>
+                    <DISC>Cреднее значение фазного тока Ic</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16227" Name="Фазный ток отключения Ia">
+                    <ID>16227</ID>
+                    <PID>2472</PID>
+                    <NAME>Фазный ток отключения Ia</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Itrip1</PLC_VARNAME>
+                    <DISC>Фазный ток отключения Ia</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16228" Name="Фазный ток отключения Ib">
+                    <ID>16228</ID>
+                    <PID>2472</PID>
+                    <NAME>Фазный ток отключения Ib</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Itrip2</PLC_VARNAME>
+                    <DISC>Фазный ток отключения Ib</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16229" Name="Фазный ток отключения Ic">
+                    <ID>16229</ID>
+                    <PID>2472</PID>
+                    <NAME>Фазный ток отключения Ic</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Itrip3</PLC_VARNAME>
+                    <DISC>Фазный ток отключения Ic</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16230" Name="Mаксиметр фазного тока Ia">
+                    <ID>16230</ID>
+                    <PID>2472</PID>
+                    <NAME>Mаксиметр фазного тока Ia</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.MaxI1</PLC_VARNAME>
+                    <DISC>Mаксиметр фазного тока Ia</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16231" Name="Mаксиметр фазного тока Ib">
+                    <ID>16231</ID>
+                    <PID>2472</PID>
+                    <NAME>Mаксиметр фазного тока Ib</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.MaxI2</PLC_VARNAME>
+                    <DISC>Mаксиметр фазного тока Ib</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16232" Name="Mаксиметр фазного тока Ic">
+                    <ID>16232</ID>
+                    <PID>2472</PID>
+                    <NAME>Mаксиметр фазного тока Ic</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.MaxI3</PLC_VARNAME>
+                    <DISC>Mаксиметр фазного тока Ic</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16233" Name="Максиметр активной мощности">
+                    <ID>16233</ID>
+                    <PID>2472</PID>
+                    <NAME>Максиметр активной мощности</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.MaxPM</PLC_VARNAME>
+                    <DISC>Максиметр активной мощности</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16234" Name="Максиметр реактивной мощности">
+                    <ID>16234</ID>
+                    <PID>2472</PID>
+                    <NAME>Максиметр реактивной мощности</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.MaxQM</PLC_VARNAME>
+                    <DISC>Максиметр реактивной мощности</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16235" Name="Активная мощность">
+                    <ID>16235</ID>
+                    <PID>2472</PID>
+                    <NAME>Активная мощность</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.P</PLC_VARNAME>
+                    <DISC>Активная мощность</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16236" Name="Рективная мощность">
+                    <ID>16236</ID>
+                    <PID>2472</PID>
+                    <NAME>Рективная мощность</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Q</PLC_VARNAME>
+                    <DISC>Рективная мощность</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16237" Name="Полная мощность">
+                    <ID>16237</ID>
+                    <PID>2472</PID>
+                    <NAME>Полная мощность</NAME>
+                    <VALTYPE>7</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.S</PLC_VARNAME>
+                    <DISC>Полная мощность</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16238" Name="Кол-во отключений по току фазного замыкания">
+                    <ID>16238</ID>
+                    <PID>2472</PID>
+                    <NAME>Кол-во отключений по току фазного замыкания</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Trip_Ikz_Cnt</PLC_VARNAME>
+                    <DISC>Кол-во отключений по току фазного замыкания</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16239" Name="Количество отключений по току">
+                    <ID>16239</ID>
+                    <PID>2472</PID>
+                    <NAME>Количество отключений по току</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Trip_I_Cnt</PLC_VARNAME>
+                    <DISC>Количество отключений по току</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16240" Name="Линейное напряжение U13">
+                    <ID>16240</ID>
+                    <PID>2472</PID>
+                    <NAME>Линейное напряжение U13</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.U13</PLC_VARNAME>
+                    <DISC>Линейное напряжение U13</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16241" Name="Линейное напряжение U21">
+                    <ID>16241</ID>
+                    <PID>2472</PID>
+                    <NAME>Линейное напряжение U21</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.U21</PLC_VARNAME>
+                    <DISC>Линейное напряжение U21</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16242" Name="Линейное напряжение U32">
+                    <ID>16242</ID>
+                    <PID>2472</PID>
+                    <NAME>Линейное напряжение U32</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.U32</PLC_VARNAME>
+                    <DISC>Линейное напряжение U32</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16243" Name="Фазное напряжение Ua">
+                    <ID>16243</ID>
+                    <PID>2472</PID>
+                    <NAME>Фазное напряжение Ua</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.V1</PLC_VARNAME>
+                    <DISC>Фазное напряжение Ua</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16244" Name="Фазное напряжение Ub">
+                    <ID>16244</ID>
+                    <PID>2472</PID>
+                    <NAME>Фазное напряжение Ub</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.V2</PLC_VARNAME>
+                    <DISC>Фазное напряжение Ub</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16245" Name="Фазное напряжение Uc">
+                    <ID>16245</ID>
+                    <PID>2472</PID>
+                    <NAME>Фазное напряжение Uc</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.V3</PLC_VARNAME>
+                    <DISC>Фазное напряжение Uc</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16246" Name="Напряжение нулевой последовательности">
+                    <ID>16246</ID>
+                    <PID>2472</PID>
+                    <NAME>Напряжение нулевой последовательности</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.V0</PLC_VARNAME>
+                    <DISC>Напряжение нулевой последовательности</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16247" Name="Напряжение прямой последовательности">
+                    <ID>16247</ID>
+                    <PID>2472</PID>
+                    <NAME>Напряжение прямой последовательности</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Vd</PLC_VARNAME>
+                    <DISC>Напряжение прямой последовательности</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16248" Name="Напряжение обратной последовательности">
+                    <ID>16248</ID>
+                    <PID>2472</PID>
+                    <NAME>Напряжение обратной последовательности</NAME>
+                    <VALTYPE>5</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Vi</PLC_VARNAME>
+                    <DISC>Напряжение обратной последовательности</DISC>
+                    <ISARH>1</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16249" Name="Нет связи">
+                    <ID>16249</ID>
+                    <PID>2472</PID>
+                    <NAME>Нет связи</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.NotConnected</PLC_VARNAME>
+                    <DISC>Нет связи</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9155">
+                        <ID>9155</ID>
+                        <PARAMID>16249</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>59</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9156">
+                        <ID>9156</ID>
+                        <PARAMID>16249</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>32</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16250" Name="Команда включения СВ по АВР">
+                    <ID>16250</ID>
+                    <PID>2472</PID>
+                    <NAME>Команда включения СВ по АВР</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS209_224_TS222</PLC_VARNAME>
+                    <DISC>Команда включения СВ по АВР</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9157">
+                        <ID>9157</ID>
+                        <PARAMID>16250</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Команда включения СВ по АВР</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16251" Name="Контроль неисправности цепи включения введен">
+                    <ID>16251</ID>
+                    <PID>2472</PID>
+                    <NAME>Контроль неисправности цепи включения введен</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS225_240_TS233</PLC_VARNAME>
+                    <DISC>Контроль неисправности цепи включения введен</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9158">
+                        <ID>9158</ID>
+                        <PARAMID>16251</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9159">
+                        <ID>9159</ID>
+                        <PARAMID>16251</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16252" Name="Команда Отключить">
+                    <ID>16252</ID>
+                    <PID>2472</PID>
+                    <NAME>Команда Отключить</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Commands.TC1</PLC_VARNAME>
+                    <DISC>Команда Отключить</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>12</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>1</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>1</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS/>
+                  </PARAM>
+                  <PARAM ID="16253" Name="Команда Блокировать запись осцилограмм">
+                    <ID>16253</ID>
+                    <PID>2472</PID>
+                    <NAME>Команда Блокировать запись осцилограмм</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Commands.TC18</PLC_VARNAME>
+                    <DISC>Команда Блокировать запись осцилограмм</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>12</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>1</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>3</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9160">
+                        <ID>9160</ID>
+                        <PARAMID>16253</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Подать команду</DISC>
+                        <MODE>-5</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16254" Name="Команда Разрешить запись осцилограмм">
+                    <ID>16254</ID>
+                    <PID>2472</PID>
+                    <NAME>Команда Разрешить запись осцилограмм</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Commands.TC19</PLC_VARNAME>
+                    <DISC>Команда Разрешить запись осцилограмм</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>12</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>1</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>3</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9161">
+                        <ID>9161</ID>
+                        <PARAMID>16254</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Подать команду</DISC>
+                        <MODE>-5</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16255" Name="Команда Включить">
+                    <ID>16255</ID>
+                    <PID>2472</PID>
+                    <NAME>Команда Включить</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Commands.TC2</PLC_VARNAME>
+                    <DISC>Команда Включить</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>12</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>1</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>1</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS/>
+                  </PARAM>
+                  <PARAM ID="16256" Name="Команда Ручной запуск записи осцилограмм">
+                    <ID>16256</ID>
+                    <PID>2472</PID>
+                    <NAME>Команда Ручной запуск записи осцилограмм</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Commands.TC20</PLC_VARNAME>
+                    <DISC>Команда Ручной запуск записи осцилограмм</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>12</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>1</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>3</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9162">
+                        <ID>9162</ID>
+                        <PARAMID>16256</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Подать команду</DISC>
+                        <MODE>-5</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16257" Name="Команда Квитировать">
+                    <ID>16257</ID>
+                    <PID>2472</PID>
+                    <NAME>Команда Квитировать</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Commands.TC3</PLC_VARNAME>
+                    <DISC>Команда Квитировать</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>12</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>1</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>3</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9163">
+                        <ID>9163</ID>
+                        <PARAMID>16257</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Подать команду</DISC>
+                        <MODE>-5</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16258" Name="Команда Сброс максиметров тока">
+                    <ID>16258</ID>
+                    <PID>2472</PID>
+                    <NAME>Команда Сброс максиметров тока</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Commands.TC4</PLC_VARNAME>
+                    <DISC>Команда Сброс максиметров тока</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>12</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>1</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>3</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9164">
+                        <ID>9164</ID>
+                        <PARAMID>16258</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Подать команду</DISC>
+                        <MODE>-5</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16259" Name="Команда Сброс максиметров мощности">
+                    <ID>16259</ID>
+                    <PID>2472</PID>
+                    <NAME>Команда Сброс максиметров мощности</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Commands.TC5</PLC_VARNAME>
+                    <DISC>Команда Сброс максиметров мощности</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>12</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>1</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>3</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9165">
+                        <ID>9165</ID>
+                        <PARAMID>16259</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Подать команду</DISC>
+                        <MODE>-5</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16260" Name="Статус осциллограмм">
+                    <ID>16260</ID>
+                    <PID>2472</PID>
+                    <NAME>Статус осциллограмм</NAME>
+                    <VALTYPE>10</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.OSCStatus</PLC_VARNAME>
+                    <DISC>Статус осциллограмм</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16261" Name="OSCStatus">
+                    <ID>16261</ID>
+                    <PID>2472</PID>
+                    <NAME>OSCStatus</NAME>
+                    <VALTYPE>10</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.OSCStatus</PLC_VARNAME>
+                    <DISC>Статус осциллограмм</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>0</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>1</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                  </PARAM>
+                  <PARAM ID="16262" Name="Выключатель Включен">
+                    <ID>16262</ID>
+                    <PID>2472</PID>
+                    <NAME>Выключатель Включен</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I101</PLC_VARNAME>
+                    <DISC>Выключатель Включен</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9166">
+                        <ID>9166</ID>
+                        <PARAMID>16262</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9167">
+                        <ID>9167</ID>
+                        <PARAMID>16262</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16263" Name="Выключатель Отключен">
+                    <ID>16263</ID>
+                    <PID>2472</PID>
+                    <NAME>Выключатель Отключен</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I102</PLC_VARNAME>
+                    <DISC>Выключатель Отключен</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9168">
+                        <ID>9168</ID>
+                        <PARAMID>16263</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9169">
+                        <ID>9169</ID>
+                        <PARAMID>16263</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16264" Name="Клапан дуговой защиты включен">
+                    <ID>16264</ID>
+                    <PID>2472</PID>
+                    <NAME>Клапан дуговой защиты включен</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I104</PLC_VARNAME>
+                    <DISC>Клапан дуговой защиты включен</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9170">
+                        <ID>9170</ID>
+                        <PARAMID>16264</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9171">
+                        <ID>9171</ID>
+                        <PARAMID>16264</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16265" Name="SF6 давление низкое">
+                    <ID>16265</ID>
+                    <PID>2472</PID>
+                    <NAME>SF6 давление низкое</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I105</PLC_VARNAME>
+                    <DISC>SF6 давление низкое</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9172">
+                        <ID>9172</ID>
+                        <PARAMID>16265</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9173">
+                        <ID>9173</ID>
+                        <PARAMID>16265</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16266" Name="Блокировка ЛЗШ">
+                    <ID>16266</ID>
+                    <PID>2472</PID>
+                    <NAME>Блокировка ЛЗШ</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I108</PLC_VARNAME>
+                    <DISC>Блокировка ЛЗШ</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9174">
+                        <ID>9174</ID>
+                        <PARAMID>16266</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9175">
+                        <ID>9175</ID>
+                        <PARAMID>16266</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16267" Name="Выкл. эл. мот. завода. пруж. привода отключ.">
+                    <ID>16267</ID>
+                    <PID>2472</PID>
+                    <NAME>Выкл. эл. мот. завода. пруж. привода отключ.</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I109</PLC_VARNAME>
+                    <DISC>Выкл. эл. мот. завода. пруж. привода отключ.</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9176">
+                        <ID>9176</ID>
+                        <PARAMID>16267</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9177">
+                        <ID>9177</ID>
+                        <PARAMID>16267</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16268" Name="Запрет телеуправления">
+                    <ID>16268</ID>
+                    <PID>2472</PID>
+                    <NAME>Запрет телеуправления</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I110</PLC_VARNAME>
+                    <DISC>Запрет телеуправления</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9178">
+                        <ID>9178</ID>
+                        <PARAMID>16268</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9179">
+                        <ID>9179</ID>
+                        <PARAMID>16268</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16269" Name="Дуговая защита, УРОВ (внеш. откл. 1)">
+                    <ID>16269</ID>
+                    <PID>2472</PID>
+                    <NAME>Дуговая защита, УРОВ (внеш. откл. 1)</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I111</PLC_VARNAME>
+                    <DISC>Дуговая защита, УРОВ (внеш. откл. 1)</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9180">
+                        <ID>9180</ID>
+                        <PARAMID>16269</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9181">
+                        <ID>9181</ID>
+                        <PARAMID>16269</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16270" Name="Сработала защита трансформатора">
+                    <ID>16270</ID>
+                    <PID>2472</PID>
+                    <NAME>Сработала защита трансформатора</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I112</PLC_VARNAME>
+                    <DISC>Сработала защита трансформатора</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9182">
+                        <ID>9182</ID>
+                        <PARAMID>16270</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9183">
+                        <ID>9183</ID>
+                        <PARAMID>16270</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16271" Name="Отключение от АВР">
+                    <ID>16271</ID>
+                    <PID>2472</PID>
+                    <NAME>Отключение от АВР</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I113</PLC_VARNAME>
+                    <DISC>Отключение от АВР</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9184">
+                        <ID>9184</ID>
+                        <PARAMID>16271</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9185">
+                        <ID>9185</ID>
+                        <PARAMID>16271</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16272" Name="Выключатель выкачен">
+                    <ID>16272</ID>
+                    <PID>2472</PID>
+                    <NAME>Выключатель выкачен</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput101_114_I114</PLC_VARNAME>
+                    <DISC>Выключатель выкачен</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9186">
+                        <ID>9186</ID>
+                        <PARAMID>16272</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9187">
+                        <ID>9187</ID>
+                        <PARAMID>16272</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16273" Name="Внешнее отключение с запретом АВР">
+                    <ID>16273</ID>
+                    <PID>2472</PID>
+                    <NAME>Внешнее отключение с запретом АВР</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput201_214_I201</PLC_VARNAME>
+                    <DISC>Внешнее отключение с запретом АВР</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9188">
+                        <ID>9188</ID>
+                        <PARAMID>16273</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9189">
+                        <ID>9189</ID>
+                        <PARAMID>16273</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16274" Name="Внешнее отключение без запрета АВР">
+                    <ID>16274</ID>
+                    <PID>2472</PID>
+                    <NAME>Внешнее отключение без запрета АВР</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput201_214_I202</PLC_VARNAME>
+                    <DISC>Внешнее отключение без запрета АВР</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9190">
+                        <ID>9190</ID>
+                        <PARAMID>16274</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9191">
+                        <ID>9191</ID>
+                        <PARAMID>16274</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16275" Name="Включение при восстановлении нормального режима">
+                    <ID>16275</ID>
+                    <PID>2472</PID>
+                    <NAME>Включение при восстановлении нормального режима</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput201_214_I203</PLC_VARNAME>
+                    <DISC>Включение при восстановлении нормального режима</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9192">
+                        <ID>9192</ID>
+                        <PARAMID>16275</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9193">
+                        <ID>9193</ID>
+                        <PARAMID>16275</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16276" Name="Контроль цепи включения">
+                    <ID>16276</ID>
+                    <PID>2472</PID>
+                    <NAME>Контроль цепи включения</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput201_214_I204</PLC_VARNAME>
+                    <DISC>Контроль цепи включения</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9194">
+                        <ID>9194</ID>
+                        <PARAMID>16276</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9195">
+                        <ID>9195</ID>
+                        <PARAMID>16276</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16277" Name="Перегорание предохранителя ТН">
+                    <ID>16277</ID>
+                    <PID>2472</PID>
+                    <NAME>Перегорание предохранителя ТН</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput201_214_I205</PLC_VARNAME>
+                    <DISC>Перегорание предохранителя ТН</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9196">
+                        <ID>9196</ID>
+                        <PARAMID>16277</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9197">
+                        <ID>9197</ID>
+                        <PARAMID>16277</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16278" Name="Цепи ТН собраны">
+                    <ID>16278</ID>
+                    <PID>2472</PID>
+                    <NAME>Цепи ТН собраны</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput201_214_I206</PLC_VARNAME>
+                    <DISC>Цепи ТН собраны</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9198">
+                        <ID>9198</ID>
+                        <PARAMID>16278</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9199">
+                        <ID>9199</ID>
+                        <PARAMID>16278</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16279" Name="Авт. выкл. ТН отключен">
+                    <ID>16279</ID>
+                    <PID>2472</PID>
+                    <NAME>Авт. выкл. ТН отключен</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput201_214_I207</PLC_VARNAME>
+                    <DISC>Авт. выкл. ТН отключен</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9200">
+                        <ID>9200</ID>
+                        <PARAMID>16279</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9201">
+                        <ID>9201</ID>
+                        <PARAMID>16279</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16280" Name="АВР включено">
+                    <ID>16280</ID>
+                    <PID>2472</PID>
+                    <NAME>АВР включено</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput201_214_I208</PLC_VARNAME>
+                    <DISC>АВР включено</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9202">
+                        <ID>9202</ID>
+                        <PARAMID>16280</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9203">
+                        <ID>9203</ID>
+                        <PARAMID>16280</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16281" Name="Откл. от ДГЗ при к.з. в отсеке кабл. сборки или ш.в.">
+                    <ID>16281</ID>
+                    <PID>2472</PID>
+                    <NAME>Откл. от ДГЗ при к.з. в отсеке кабл. сборки или ш.в.</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_DInput201_214_I213</PLC_VARNAME>
+                    <DISC>Откл. от ДГЗ при к.з. в отсеке кабл. сборки или ш.в.</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9204">
+                        <ID>9204</ID>
+                        <PARAMID>16281</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9205">
+                        <ID>9205</ID>
+                        <PARAMID>16281</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16282" Name="Неисправность цепей управления">
+                    <ID>16282</ID>
+                    <PID>2472</PID>
+                    <NAME>Неисправность цепей управления</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS01_16_TS1</PLC_VARNAME>
+                    <DISC>Неисправность цепей управления</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9206">
+                        <ID>9206</ID>
+                        <PARAMID>16282</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9207">
+                        <ID>9207</ID>
+                        <PARAMID>16282</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16283" Name="Неисправность команды управления вылючателем">
+                    <ID>16283</ID>
+                    <PID>2472</PID>
+                    <NAME>Неисправность команды управления вылючателем</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS01_16_TS2</PLC_VARNAME>
+                    <DISC>Неисправность команды управления вылючателем</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9208">
+                        <ID>9208</ID>
+                        <PARAMID>16283</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9209">
+                        <ID>9209</ID>
+                        <PARAMID>16283</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16284" Name="Несоотв. полож. выкл. послед. команде ТУ">
+                    <ID>16284</ID>
+                    <PID>2472</PID>
+                    <NAME>Несоотв. полож. выкл. послед. команде ТУ</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS01_16_TS3</PLC_VARNAME>
+                    <DISC>Несоотв. полож. выкл. послед. команде ТУ</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9210">
+                        <ID>9210</ID>
+                        <PARAMID>16284</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9211">
+                        <ID>9211</ID>
+                        <PARAMID>16284</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16285" Name="Сигнал &quot;Вызов&quot;">
+                    <ID>16285</ID>
+                    <PID>2472</PID>
+                    <NAME>Сигнал &quot;Вызов&quot;</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS01_16_TS5</PLC_VARNAME>
+                    <DISC>Сигнал &quot;Вызов&quot;</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9212">
+                        <ID>9212</ID>
+                        <PARAMID>16285</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9213">
+                        <ID>9213</ID>
+                        <PARAMID>16285</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16286" Name="Разрешение телеуправления">
+                    <ID>16286</ID>
+                    <PID>2472</PID>
+                    <NAME>Разрешение телеуправления</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS01_16_TS14</PLC_VARNAME>
+                    <DISC>Разрешение телеуправления</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9214">
+                        <ID>9214</ID>
+                        <PARAMID>16286</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9215">
+                        <ID>9215</ID>
+                        <PARAMID>16286</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16287" Name="Блокировка записи осцилограмм авар. режимов">
+                    <ID>16287</ID>
+                    <PID>2472</PID>
+                    <NAME>Блокировка записи осцилограмм авар. режимов</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS49_64_TS50</PLC_VARNAME>
+                    <DISC>Блокировка записи осцилограмм авар. режимов</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9216">
+                        <ID>9216</ID>
+                        <PARAMID>16287</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9217">
+                        <ID>9217</ID>
+                        <PARAMID>16287</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16288" Name="Запрет телерегулировки">
+                    <ID>16288</ID>
+                    <PID>2472</PID>
+                    <NAME>Запрет телерегулировки</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS49_64_TS51</PLC_VARNAME>
+                    <DISC>Запрет телерегулировки</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9218">
+                        <ID>9218</ID>
+                        <PARAMID>16288</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9219">
+                        <ID>9219</ID>
+                        <PARAMID>16288</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16289" Name="Обобщенный сигнал неисправности">
+                    <ID>16289</ID>
+                    <PID>2472</PID>
+                    <NAME>Обобщенный сигнал неисправности</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS49_64_TS52</PLC_VARNAME>
+                    <DISC>Обобщенный сигнал неисправности</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9220">
+                        <ID>9220</ID>
+                        <PARAMID>16289</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9221">
+                        <ID>9221</ID>
+                        <PARAMID>16289</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16290" Name="Срабатываение дуговой защиты">
+                    <ID>16290</ID>
+                    <PID>2472</PID>
+                    <NAME>Срабатываение дуговой защиты</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.Compact_TS49_64_TS64</PLC_VARNAME>
+                    <DISC>Срабатываение дуговой защиты</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9222">
+                        <ID>9222</ID>
+                        <PARAMID>16290</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9223">
+                        <ID>9223</ID>
+                        <PARAMID>16290</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16291" Name="Срабатывание логической защиты шин">
+                    <ID>16291</ID>
+                    <PID>2472</PID>
+                    <NAME>Срабатывание логической защиты шин</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS65_80_TS65</PLC_VARNAME>
+                    <DISC>Срабатывание логической защиты шин</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9224">
+                        <ID>9224</ID>
+                        <PARAMID>16291</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9225">
+                        <ID>9225</ID>
+                        <PARAMID>16291</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16292" Name="Срабатывание МТЗ">
+                    <ID>16292</ID>
+                    <PID>2472</PID>
+                    <NAME>Срабатывание МТЗ</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS65_80_TS67</PLC_VARNAME>
+                    <DISC>Срабатывание МТЗ</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9226">
+                        <ID>9226</ID>
+                        <PARAMID>16292</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9227">
+                        <ID>9227</ID>
+                        <PARAMID>16292</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16293" Name="Срабатывание ускорение МТЗ при вкл. выкл.">
+                    <ID>16293</ID>
+                    <PID>2472</PID>
+                    <NAME>Срабатывание ускорение МТЗ при вкл. выкл.</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS65_80_TS68</PLC_VARNAME>
+                    <DISC>Срабатывание ускорение МТЗ при вкл. выкл.</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9228">
+                        <ID>9228</ID>
+                        <PARAMID>16293</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9229">
+                        <ID>9229</ID>
+                        <PARAMID>16293</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16294" Name="Перегрузка">
+                    <ID>16294</ID>
+                    <PID>2472</PID>
+                    <NAME>Перегрузка</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS65_80_TS69</PLC_VARNAME>
+                    <DISC>Перегрузка</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9230">
+                        <ID>9230</ID>
+                        <PARAMID>16294</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9231">
+                        <ID>9231</ID>
+                        <PARAMID>16294</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16295" Name="Срабатываение УРОВ">
+                    <ID>16295</ID>
+                    <PID>2472</PID>
+                    <NAME>Срабатываение УРОВ</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS97_112_TS112</PLC_VARNAME>
+                    <DISC>Срабатываение УРОВ</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9232">
+                        <ID>9232</ID>
+                        <PARAMID>16295</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9233">
+                        <ID>9233</ID>
+                        <PARAMID>16295</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16296" Name="Отключение от ДГЗ, УРОВ">
+                    <ID>16296</ID>
+                    <PID>2472</PID>
+                    <NAME>Отключение от ДГЗ, УРОВ</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS177_192_TS177</PLC_VARNAME>
+                    <DISC>Отключение от ДГЗ, УРОВ</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9234">
+                        <ID>9234</ID>
+                        <PARAMID>16296</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9235">
+                        <ID>9235</ID>
+                        <PARAMID>16296</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16297" Name="Отключение от защит трансформатора">
+                    <ID>16297</ID>
+                    <PID>2472</PID>
+                    <NAME>Отключение от защит трансформатора</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS177_192_TS178</PLC_VARNAME>
+                    <DISC>Отключение от защит трансформатора</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9236">
+                        <ID>9236</ID>
+                        <PARAMID>16297</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9237">
+                        <ID>9237</ID>
+                        <PARAMID>16297</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16298" Name="Сигнал аварийного отключения">
+                    <ID>16298</ID>
+                    <PID>2472</PID>
+                    <NAME>Сигнал аварийного отключения</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS177_192_TS179</PLC_VARNAME>
+                    <DISC>Сигнал аварийного отключения</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9238">
+                        <ID>9238</ID>
+                        <PARAMID>16298</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9239">
+                        <ID>9239</ID>
+                        <PARAMID>16298</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16299" Name="Включение выкл. при авто. восстановлении нормального режима">
+                    <ID>16299</ID>
+                    <PID>2472</PID>
+                    <NAME>Включение выкл. при авто. восстановлении нормального режима</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS177_192_TS184</PLC_VARNAME>
+                    <DISC>Включение выкл. при авто. восстановлении нормального режима</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9240">
+                        <ID>9240</ID>
+                        <PARAMID>16299</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9241">
+                        <ID>9241</ID>
+                        <PARAMID>16299</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16300" Name="Обратное направление вращения фаз">
+                    <ID>16300</ID>
+                    <PID>2472</PID>
+                    <NAME>Обратное направление вращения фаз</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS193_208_TS196</PLC_VARNAME>
+                    <DISC>Обратное направление вращения фаз</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9242">
+                        <ID>9242</ID>
+                        <PARAMID>16300</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9243">
+                        <ID>9243</ID>
+                        <PARAMID>16300</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16301" Name="Неисправность цепи включения">
+                    <ID>16301</ID>
+                    <PID>2472</PID>
+                    <NAME>Неисправность цепи включения</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS193_208_TS208</PLC_VARNAME>
+                    <DISC>Неисправность цепи включения</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9244">
+                        <ID>9244</ID>
+                        <PARAMID>16301</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9245">
+                        <ID>9245</ID>
+                        <PARAMID>16301</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16302" Name="Неисправность трансформатора тока">
+                    <ID>16302</ID>
+                    <PID>2472</PID>
+                    <NAME>Неисправность трансформатора тока</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS209_224_TS209</PLC_VARNAME>
+                    <DISC>Неисправность трансформатора тока</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9246">
+                        <ID>9246</ID>
+                        <PARAMID>16302</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9247">
+                        <ID>9247</ID>
+                        <PARAMID>16302</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16303" Name="Неисправность трансформатора">
+                    <ID>16303</ID>
+                    <PID>2472</PID>
+                    <NAME>Неисправность трансформатора</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS209_224_TS210</PLC_VARNAME>
+                    <DISC>Неисправность трансформатора</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9248">
+                        <ID>9248</ID>
+                        <PARAMID>16303</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9249">
+                        <ID>9249</ID>
+                        <PARAMID>16303</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16304" Name="Снижение напряжения питния">
+                    <ID>16304</ID>
+                    <PID>2472</PID>
+                    <NAME>Снижение напряжения питния</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS209_224_TS217</PLC_VARNAME>
+                    <DISC>Снижение напряжения питния</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9250">
+                        <ID>9250</ID>
+                        <PARAMID>16304</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9251">
+                        <ID>9251</ID>
+                        <PARAMID>16304</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16305" Name="Батарея разряжена">
+                    <ID>16305</ID>
+                    <PID>2472</PID>
+                    <NAME>Батарея разряжена</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS209_224_TS219</PLC_VARNAME>
+                    <DISC>Батарея разряжена</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9252">
+                        <ID>9252</ID>
+                        <PARAMID>16305</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>61</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9253">
+                        <ID>9253</ID>
+                        <PARAMID>16305</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>34</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                  <PARAM ID="16306" Name="Автоматический выключатель ТН отключен">
+                    <ID>16306</ID>
+                    <PID>2472</PID>
+                    <NAME>Автоматический выключатель ТН отключен</NAME>
+                    <VALTYPE>9</VALTYPE>
+                    <OFFSET>0</OFFSET>
+                    <PLC_VARNAME>.TS209_224_TS220</PLC_VARNAME>
+                    <DISC>Автоматический выключатель ТН отключен</DISC>
+                    <ISARH>0</ISARH>
+                    <ISEV>2</ISEV>
+                    <GRIDCOLUMNPARAM/>
+                    <ISMANUAL>0</ISMANUAL>
+                    <EMULPARAMS>R;10;100</EMULPARAMS>
+                    <EVBYGATE>0</EVBYGATE>
+                    <PGROUPID>0</PGROUPID>
+                    <KLASTERCHECK>0</KLASTERCHECK>
+                    <ISLOCAL>0</ISLOCAL>
+                    <EVENTS>
+                      <rec ID="9254">
+                        <ID>9254</ID>
+                        <PARAMID>16306</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Исчезновение</DISC>
+                        <MODE>57</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>0</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                      <rec ID="9255">
+                        <ID>9255</ID>
+                        <PARAMID>16306</PARAMID>
+                        <SHORTNAME/>
+                        <DISC>Появление</DISC>
+                        <MODE>30</MODE>
+                        <DISC2/>
+                        <MODE2>0</MODE2>
+                        <BITNUM>1</BITNUM>
+                        <KKSB/>
+                        <ACTIONMODE>0</ACTIONMODE>
+                        <ACTIONTIMEOUT>0</ACTIONTIMEOUT>
+                        <VALUEON>-1</VALUEON>
+                      </rec>
+                    </EVENTS>
+                  </PARAM>
+                </OBJTYPEPARAMS>
+                
+
+</root>
